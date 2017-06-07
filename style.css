@@ -157,6 +157,12 @@ label {
   color: #fff;
   border: 1px solid transparent;
 }
+.button.button-larg {
+  padding: 0 40px;
+}
+.button.button-small {
+  padding: 0 25px;
+}
 
 /* -----------------------------
 3. Header area style
