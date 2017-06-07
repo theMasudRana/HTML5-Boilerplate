@@ -1,0 +1,163 @@
+/* -----------------------------
+Template Name: Template name
+Author: Authore Name
+------------------------------- */
+/* -----------------------------------
+CSS Table of content
+--------------------------------------
+1. Template default styles
+2. Button style
+3. Header area style
+--------------------------------------*/
+
+
+/* -----------------------------
+1. Template default styles
+--------------------------------*/
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Open+Sans:300,400,600,700';
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+.img{
+  max-width: 100%;
+  transition: all 0.3s ease-in-out 0s;
+}
+a{
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+a:hover {
+  color: #888888;
+  text-decoration: none;
+}
+.uppercase { 
+  text-transform: uppercase;
+}
+.capitalize { 
+  text-transform: capitalize;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #232332;
+  font-family: "Montserrat",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a { 
+   color: inherit;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li { list-style: none }
+p {
+    color: #626262;
+    margin-bottom: 15px;
+}
+hr{
+    margin: 0;
+    padding: 0px;
+    border-bottom: 1px solid #eee;
+    border-top: 0px;
+}
+label {
+  color: #626262;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+*::-moz-selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+*::-moz-placeholder {
+  color: #555555;
+  font-size: 14px;
+}
+*::placeholder {
+  color: #555555;
+  font-size: 14px;
+}
+.mark {
+  background: #4fc1f0 none repeat scroll 0 0;
+  color: #ffffff;
+}
+.container {
+  width: 1200px;
+}
+
+/* ------------------------------
+2. Button style
+---------------------------------*/
+.button {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #e5e5e5;
+  color: #232323;
+  display: inline-block;
+  font-family: "Montserrat",sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  height: 45px;
+  letter-spacing: 1px;
+  line-height: 42px;
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+.button:hover {
+  background: #333;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+/* -----------------------------
+3. Header area style
+-------------------------------- */
