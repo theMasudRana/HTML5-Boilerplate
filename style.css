@@ -1,6 +1,7 @@
 /* -----------------------------
 Template Name: Template name
 Author: Author Name
+Version: 1.0;
 ------------------------------- */
 
 
@@ -17,7 +18,7 @@ CSS Table of content
 1. Template default styles
 --------------------------------*/
 
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Open+Sans:300,400,600,700';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Open+Sans:300,400,600,700,800';
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -25,20 +26,9 @@ body {
     font-weight: 300;
     line-height: 24px;
 }
-
-.img {
-    max-width: 100%;
-    transition: all 0.3s ease-in-out 0s;
-}
-
 a {
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    -ms-transition: all 0.3s ease-in-out 0s;
-    -o-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
 }
-
 a:focus {
     text-decoration: none;
     outline: none;
@@ -48,15 +38,12 @@ a:hover {
     color: #888888;
     text-decoration: none;
 }
-
 .uppercase {
     text-transform: uppercase;
 }
-
 .capitalize {
     text-transform: capitalize;
 }
-
 h1,
 h2,
 h3,
@@ -68,8 +55,8 @@ h6 {
     font-style: normal;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-top: 0;
-    text-transform: capitalize;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 h1 a,
@@ -133,19 +120,11 @@ label {
     font-size: 14px;
     font-weight: 400;
 }
-
-*::-moz-selection {
-    background: #4fc1f0;
-    color: #fff;
-    text-shadow: none;
-}
-
 ::-moz-selection {
     background: #4fc1f0;
     color: #fff;
     text-shadow: none;
 }
-
 ::selection {
     background: #4fc1f0;
     color: #fff;
