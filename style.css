@@ -145,10 +145,12 @@ label {
     background: #4fc1f0 none repeat scroll 0 0;
     color: #ffffff;
 }
-
-.container {
-    width: 1200px;
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
 }
+
 
 
 /* ------------------------------
