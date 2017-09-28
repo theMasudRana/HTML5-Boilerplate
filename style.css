@@ -150,7 +150,10 @@ label {
         max-width: 1200px;
     }
 }
-
+.wrapper {
+    overflow: hidden;
+    clear: both;
+}
 
 
 /* ------------------------------
