@@ -1,0 +1,70 @@
+/* ----------------------------------------------------
+-------------------------------------------------------
+Template Name: Template Name
+Author:
+URL:
+Version: 1.0;
+------------------------------------------------------- */
+/* All scss files are included here */
+/* ------------
+Google Fonts:
+1. Montserrat
+2. Roboto
+----------------- */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Roboto:300,400,500,700");
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2e2e2e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 0; }
+
+a,
+button {
+  color: inherit;
+  display: inline-block;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer; }
+
+a,
+button,
+img,
+input,
+span,
+::before,
+::after {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+
+*:focus {
+  outline: none; }
+
+a:focus {
+  color: inherit;
+  outline: none;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+button,
+input[type="submit"] {
+  cursor: pointer; }
+
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=style.css.map */
